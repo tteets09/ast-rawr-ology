@@ -79,3 +79,13 @@ nav {
     font-size: 2rem;
     font-family: 'Rubik', sans-serif;
 }
+
+.hide {
+    background: #21262C;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
