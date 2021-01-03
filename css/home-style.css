@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media screen and (max-width: 950px) {
+
+}
 main {
     font-family: 'Rubik', sans-serif;
 }
@@ -46,18 +49,6 @@ nav {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
-.divider {
-    background: #AE823E;
-    color: #AE823E;
-    font-size: 1px;
-    width: 5px;
-    height: 3rem;
-    position: absolute;
-    top: 0;
-    left: 27%;
-    transform: translateY(-100%);
-}
-
 .intro {
     background: #21262C;
     position: fixed;
