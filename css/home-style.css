@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    font-family: 'Rubik', sans-serif;
+}
+.landing {
+    min-height: 100vh;
+    background: url(../images/page_images/mainPage1.jpg);
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 4rem;
+    background: #21262C;
+}
+.nav-links {
+    list-style: none;
+    display: flex
+}
+.nav-links li{
+    font-size: 26px;
+    letter-spacing: 0.025em;
+    padding-left: 2rem;
+    color: #AE823E;
+
+}
+#logo {
+    font-weight: 300;
+    padding-left: 3rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 32px;
+    letter-spacing: 0.28em;
+    background-image: linear-gradient(89.47deg, #8898AA -1.02%, #C8B9B0 18.62%, #AE823E 82.68%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.divider {
+    background: #AE823E;
+    color: #AE823E;
+    font-size: 1px;
+    width: 5px;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 27%;
+
+}
+
+.intro {
+    background: #21262C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    background: #47596E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+.intro-text {
+    color: #E5DCD6;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
