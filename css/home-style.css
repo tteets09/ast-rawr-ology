@@ -79,13 +79,31 @@ nav {
     font-size: 2rem;
     font-family: 'Rubik', sans-serif;
 }
-
 .hide {
     background: #21262C;
     overflow: hidden;
 }
-
 .hide span {
     transform: translateY(100%);
     display: inline-block;
+}
+footer {
+    position: relative;
+    height: 10vh;
+    background: #21262C;
+}
+.info-list {
+    position: absolute;
+    list-style: "|";
+    display: flex;
+    bottom: 0;
+}
+.info-text {
+    padding: 0 0.5em;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #AE823E;
+    text-transform: uppercase;
+}
+.link {
+    text-decoration: underline;
 }

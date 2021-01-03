@@ -8,3 +8,5 @@ tl.fromTo('.nav-links', {opacity: 0}, {opacity: 1, duration: 1});
 tl.to('#logo', {x: '3rem', duration: 2}, "-=1");
 tl.to('.divider', {y: '0%', duration: 1}, "-=1");
 
+tl.fromTo('.information', {opacity: 0}, {opacity: 1, duration: 1}, "-=1");
+
