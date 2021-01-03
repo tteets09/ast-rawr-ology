@@ -17,10 +17,14 @@ nav {
     align-items: center;
     min-height: 4rem;
     background: #21262C;
+    overflow: hidden;
 }
 .nav-links {
     list-style: none;
-    display: flex
+    display: flex;
+}
+.links {
+    transform: translateY(200%);
 }
 .nav-links li{
     font-size: 26px;
