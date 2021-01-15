@@ -1,104 +1,150 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 950px) {
-
 }
 main {
-    font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .landing {
-    min-height: 100vh;
-    background: url(../images/page_images/mainPage1.jpg);
-    background-size: cover;
+  min-height: 100vh;
+  background: url(../images/page_images/mainPage1.jpg);
+  background-size: cover;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 4rem;
-    background: #21262C;
-    overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 4rem;
+  background: #21262c;
+  overflow: hidden;
 }
 .nav-links {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 .links {
-    transform: translateY(200%);
+  transform: translateY(200%);
 }
-.nav-links li{
-    font-size: 26px;
-    letter-spacing: 0.025em;
-    padding-left: 2rem;
-    color: #AE823E;
-
+.nav-links li a {
+  text-decoration: none;
+  font-size: 26px;
+  letter-spacing: 0.025em;
+  padding-left: 2rem;
+  color: #ae823e;
 }
 #logo {
-    font-weight: 300;
-    transform: translateX(-100%);
-    font-family: 'Baloo Tamma 2', cursive;
-    font-size: 32px;
-    letter-spacing: 0.28em;
-    background-image: linear-gradient(89.47deg, #8898AA -1.02%, #C8B9B0 18.62%, #AE823E 82.68%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+  font-weight: 300;
+  transform: translateX(-100%);
+  font-family: "Baloo Tamma 2", cursive;
+  font-size: 32px;
+  letter-spacing: 0.28em;
+  background-image: linear-gradient(
+    89.47deg,
+    #8898aa -1.02%,
+    #c8b9b0 18.62%,
+    #ae823e 82.68%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 .intro {
-    background: #21262C;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: #21262c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .slider {
-    background: #47596E;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: translateY(100%);
+  background: #47596e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
 }
 .intro-text {
-    color: #E5DCD6;
-    font-size: 2rem;
-    font-family: 'Rubik', sans-serif;
+  color: #e5dcd6;
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
 }
 .hide {
-    background: #21262C;
-    overflow: hidden;
+  background: #21262c;
+  overflow: hidden;
 }
 .hide span {
-    transform: translateY(100%);
-    display: inline-block;
+  transform: translateY(100%);
+  display: inline-block;
 }
-footer {
-    position: relative;
-    height: 10vh;
-    background: #21262C;
+.information {
+  bottom: 0;
+  position: absolute;
+  background-color: transparent;
+  transform: translate(0);
+  z-index: 0;
+  width: 100vw;
+  height: 2rem;
 }
 .info-list {
-    position: absolute;
-    list-style: "|";
-    display: flex;
-    bottom: 0;
+  position: absolute;
+  list-style: "|";
+  display: flex;
+  bottom: 50%;
+  right: 0;
+  align-items: center;
+  transform: translate(0, 50%);
+}
+li.info-text a {
+  text-decoration: none;
+  padding: 0 0.5em;
+  font-family: "Baloo Tamma 2", cursive;
+  color: #ae823e;
+  text-transform: uppercase;
 }
 .info-text {
-    padding: 0 0.5em;
-    font-family: 'Baloo Tamma 2', cursive;
-    color: #AE823E;
-    text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 0.5em;
+  font-family: "Baloo Tamma 2", cursive;
+  color: #ae823e;
+  text-transform: uppercase;
 }
 .link {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+.triangle {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  -webkit-filter: drop-shadow(1rem 1rem 1rem rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(1rem 1rem 1rem rgba(0, 0, 0, 0.5));
+  transform: translateX(-1500px);
+}
+
+.tri1 {
+  border-bottom: 40rem solid #21262c;
+  border-right: 27rem solid transparent;
+  z-index: 1;
+}
+
+.tri2 {
+  border-bottom: 35rem solid #47596e;
+  border-right: 23rem solid transparent;
+  z-index: 1;
+}
+
+.tri3 {
+  border-bottom: 25rem solid #8898aa;
+  border-right: 16rem solid transparent;
+  z-index: 1;
 }
