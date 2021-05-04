@@ -132,19 +132,19 @@ li.info-text a {
 }
 
 .tri1 {
-  border-bottom: 40rem solid #21262c;
+  border-bottom: 30rem solid #21262c;
   border-right: 27rem solid transparent;
   z-index: 1;
 }
 
 .tri2 {
-  border-bottom: 35rem solid #47596e;
-  border-right: 23rem solid transparent;
+  border-bottom: 25rem solid #47596e;
+  border-right: 22rem solid transparent;
   z-index: 1;
 }
 
 .tri3 {
-  border-bottom: 25rem solid #8898aa;
-  border-right: 16rem solid transparent;
+  border-bottom: 20rem solid #8898aa;
+  border-right: 17rem solid transparent;
   z-index: 1;
 }
